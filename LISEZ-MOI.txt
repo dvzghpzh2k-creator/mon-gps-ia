@@ -1,0 +1,19 @@
+MON GPS IA - PROTOTYPE PERSONNEL
+
+Installation uniquement depuis un iPhone (avec un compte GitHub gratuit) :
+1. Ouvrez github.com dans Safari, connectez-vous et créez un dépôt public nommé mon-gps-ia.
+2. Dans le dépôt, choisissez Add file > Upload files et envoyez individuellement index.html, manifest.webmanifest, sw.js, icon.png et icon-512.png depuis l'application Fichiers. Ne téléversez pas seulement le ZIP.
+3. Ouvrez Settings > Pages, choisissez Deploy from a branch, branche main et dossier /(root), puis Save.
+4. Attendez la publication et ouvrez https://VOTRE-IDENTIFIANT.github.io/mon-gps-ia/ dans Safari.
+5. Dans Safari, Partager > Sur l'écran d'accueil > Ajouter.
+6. Autorisez l'accès à votre position.
+
+LIMITES IMPORTANTES :
+- Application prototype non testée sur votre appareil. Les API communautaires Photon, Valhalla, OSRM et les tuiles OpenStreetMap peuvent avoir des quotas, pannes, limitations CORS ou restrictions d'utilisation. Pas de garantie de service.
+- Guidage vocal simplifié : ne remplace pas un GPS certifié et ne fonctionne pas de façon fiable écran verrouillé / arrière-plan. Valhalla n'est pas garanti pour la précision des annonces vocales. La variante OSRM a des annonces simplifiées.
+- Option éviter les péages : disponible uniquement si Valhalla répond ; vérifier la signalisation et les péages réels. Pas de garantie.
+- Itinéraires alternatifs proposés seulement si le service en fournit.
+- Pas de trafic temps réel, pas de recalcul automatique hors itinéraire, pas de cartes hors ligne complètes.
+- Favoris enregistrés localement dans le navigateur.
+- Ne manipulez jamais l'application pendant la conduite.
+- GitHub Pages exige un dépôt public sur un compte gratuit ; les fichiers de code sont publics, mais les favoris et positions ne sont pas envoyés dans le dépôt.
